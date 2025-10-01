@@ -3,6 +3,9 @@ messages:
   no-permission: "&cYou don't have enough permissions!"
   unknown-apple: "&cUnknown type of apple: %apple_type%"
 
+  effect-format: "&7Effect: &e%effect_name% %effect_level% &7(%effect_duration%)"
+  rarity-format: "&7Rarity: %rarity%"
+
 # Rarities: Defines rarity levels for apples, with display formats (e.g., color codes).
 rarities:
   COMMON: "&7Common"
