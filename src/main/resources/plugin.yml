@@ -1,12 +1,7 @@
 name: Apples
 version: 1.0.0
-main: com.ggprison.CustomApples
+main: com.ggprison.apples.CustomApples
 api-version: 1.21
 
 author: Snaily
 description: Plugin that gives the ability to create custom apples with custom effects!
-
-commands:
-  apples:
-    description: Helpful commands for apples plugin
-    usage: /<command> help

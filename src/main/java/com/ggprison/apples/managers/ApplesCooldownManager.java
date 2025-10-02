@@ -1,4 +1,4 @@
-package com.ggprison.managers;
+package com.ggprison.apples.managers;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
