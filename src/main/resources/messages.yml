@@ -1,18 +1,19 @@
 prefix: "&6&lA&e&lp&6&lp&e&ll&6&le&e&ls &7➤"
 messages:
-  success.admin-reload: "{chat_prefix} &fConfig has been reloaded!"
+  success.admin-reload: "{chat_prefix} &fCustomApples has been reloaded!"
+  success.broadcast-consume: "{chat_prefix} &a{player}&f consumed &a{apple}&f!"
 
 failure:
-  no-permission: "{chat_prefix} &fYou don't have enough permissions!"
-  unknown-apple: "{chat_prefix} &fUnknown type of apple: &a{apple_type}"
-  no-player-found: "{chat_prefix} &fThe player &a{player}&f does not exist"
-  apple-not-provided: "{chat_prefix} &fPlease provide an apple type!"
+  no-permission: "{chat_prefix} &cYou don't have enough permissions!"
+  unknown-apple: "{chat_prefix} &cUnknown type of apple: {apple_type}"
+  no-player-found: "{chat_prefix} &cThe player &7{player}&c does not exist"
   apple-in-cooldown: "{chat_prefix} &fPlease wait &a{remaining}s&f before using {apple}&f again!"
 
 usage:
-  apples-give: "{chat_prefix} &eUsage: &7/capple give &e<player> <apple> <amount>"
+  apples-give: "{chat_prefix} &7Usage: &c/apples give <player> <apple> <amount>"
   apples: |
     &7&l&m━━━━━━━━━━━━━━━━&7 &e&lApples &aCommands &7&l&m━━━━━━━━━━━━━━━━
-    &7- &a/sm reload &e: &7Reload config files.
-    &7- &a/sm give <user> <type> <amount> &e: &7Give an apple to a player.
+    &7- &a/apples reload &e: &7Reload config files.
+    &7- &a/apples info &e: &7Check plugin information.
+    &7- &a/apples give <user> <type> <amount> &e: &7Give an apple to a player.
     &7&l&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

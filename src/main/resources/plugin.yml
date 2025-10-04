@@ -1,7 +1,8 @@
-name: Apples
+name: CustomApples
 version: 1.0.0
 main: com.ggprison.apples.CustomApples
 api-version: 1.21
+depend: [Midnight]
 
 author: Snaily
 description: Plugin that gives the ability to create custom apples with custom effects!
