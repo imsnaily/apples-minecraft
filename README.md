@@ -1,4 +1,8 @@
-CustomApples
+# MC CustomApples
+
+[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21-green.svg)](https://papermc.io/downloads/paper)
+[![PaperMC](https://img.shields.io/badge/PaperMC-Supported-blue.svg)](https://papermc.io)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A customizable apple plugin for **PaperMC 1.21** that allows players to consume special apples with unique potion effects, cooldowns, and visual effects. Configurable through YAML files with support for admin commands and dynamic messaging.
 
