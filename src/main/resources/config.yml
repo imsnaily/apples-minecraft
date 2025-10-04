@@ -1,4 +1,0 @@
-# Rarities: Defines rarity levels for apples, with display formats (e.g., color codes).
-rarities:
-  COMMON: "&7Common"
-  RARE: "&9Rare" 

@@ -1,17 +1,20 @@
 # Apples: Defines custom apples, including their appearance, behavior, and effects.
 apples:
   # Unique identifier for the apple (e.g., 'test').
-  test:
-    display-name: "&7Test apple" 
-    lore:
-      - "&7Test lore lololol"
-      - "&7Hello im &csnaily"
-    # Rarity of the apple, must match a key from the 'rarities' section (e.g., COMMON, RARE).
+  kronos:
+    item:
+      # Minecraft material type for the apple (e.g., GOLDEN_APPLE, APPLE).
+      type: GOLDEN_APPLE
+      name: "&4&lKronos Apple" 
+      lore:
+        - "&7Rarity: &a{apple_rarity}"
+        - "&7This apple belongs to &e{apple_owner}"
+    # Rarity of the apple (can be anything tbh)
     rarity: RARE
     # Minecraft material type for the apple (e.g., GOLDEN_APPLE, APPLE).
     material: GOLDEN_APPLE
     # Message broadcast when the apple is consumed. Set to false if want to disable
-    broadcast: "&e%player%&/ ate a &a%apple_type%!"
+    broadcast: "&e{player}&/ ate a &a{apple_type}!"
     # Cooldown period (in seconds) before the apple can be used again.
     cooldown-seconds: 300
     # Effects applied to the player when the apple is consumed.
