@@ -1,0 +1,34 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group 'com.ggprison.apples'
+version '1.0.0'
+
+java {
+    sourceCompatibility JavaVersion.VERSION_21
+    targetCompatibility JavaVersion.VERSION_21
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.extendedclip.com/content/repositories/placeholderapi/' }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    maven { url 'https://repo.papermc.io/repository/maven-public/' }
+    maven { url 'https://jitpack.io/' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT'
+    compileOnly 'com.github.ColinGrime:Midnight:v1.2.8'
+
+    implementation 'me.clip:placeholderapi:2.11.6'
+    implementation "net.kyori:adventure-api:4.24.0"
+}
+
+processResources {
+    filter ReplaceTokens, beginToken: '${', endToken: '}', tokens: ['version': version]
+}

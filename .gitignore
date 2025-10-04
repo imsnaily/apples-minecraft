@@ -1,2 +1,6 @@
 target/classes
 target
+
+.gradle
+.vscode
+build
